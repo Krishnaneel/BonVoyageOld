@@ -7,7 +7,7 @@ const port = 80; // Choosing a port for your server
 console.log(__dirname);
 
 // Serving static files from the 'assets' directory
-app.use(express.static('assets'));
+app.use(express.static('assets/'));
 
 
   
